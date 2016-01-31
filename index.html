@@ -29,16 +29,25 @@
 		img { border: 0; max-width: 100%; }
 
 		body { background: #fff; }
-		header, footer, .container { max-width: 45em; margin: 0 auto; }
+		header, footer, .container_1, .container_2, .pittman { max-width: 45em; margin: 0 auto; }
+		header {margin-top: 90px; margin-bottom: 150px;}
 
-		header { padding: 0 0.5em; color: #C90B0B; }
-		header img { border-radius: 40px; float: left; }
-		header p { font-size:1.5em; font-weight: bold; padding-left: 4em;}
-		header p span { font-size: 0.8em; font-weight: normal;}
+		.pitman, .container_2 {padding-top: 10px;}
+		.my_contacts {padding-left: 13em; color: #A675A1;}
+
+		header, .pittman { padding: 0 0.5em; color: #C90B0B; }
+		header img, .pittman img { border-radius: 40px; float: left; }
+		.name, .pittman p { font-size:1.5em; font-weight: bold; padding-left: 4em; color: #CEA2AC}
+		.name {margin-left: 160px;}
+		.pittman p span { font-size: 0.8em; font-weight: normal;}
+		header p span {font-size: 0.8em; font-weight: normal;padding-left: 100px;}
+		header .description {font-weight: bold; color: #95B2B8;}
+		header img {padding-top: 100px; padding-right: 20px; padding-left: 10px;}
 
 		.hero { padding: 2em; background-color: #f8f8f8; font-size:1.2em;
 		  border-bottom: 1px solid #ccc;
 		  border-top: 1px solid #ccc;
+		  color: #000;
 		}
 
 		.content { padding: 1em 1em; }
@@ -76,12 +85,22 @@
   </head>
 
   <body>
-    <header>
-      <a href="/"><img src="img/profilepic.jpg"></a>
-      <p>Cameron Pittman<br><span>Course Developer</span></p>
-    </header>
+	<header>
+		<img src="img/averin.png">
+      	<p class="name">Averyn Uladzislau Dzmitryevich<br><span>BSUIR student</span></p>
+		<div class="hero">
+				<p class="description">
+					<strong>Hi there!</strong>I'm a 3rd-yeah student of Belarusian State University of Informatics and Electronics. And i glad to see you on my portfolio page!<br><br><div class="my_contacts">My contacts:<strong><br>exo-1996@tut.by<br>+375(29)801-51-56</strong></div>
+     			</p>
+      </div>
+	</header>
 
-    <div class="container">
+	<div class="pittman">
+      <img src="img/profilepic.jpg">
+      <p>Cameron Pittman<br><span>Course Developer</span></p>
+    </div>
+
+    <div class="container_2">
       <div class="hero">
         <strong>I love web development!</strong> This is a template for a simple portfolio. I decided to use it to showcase a few Udacity courses I've taken and some teaching work, but you can use it to showcase any kind of project that you want the world to see :) <br> Contact me: me@email.com
       </div>
